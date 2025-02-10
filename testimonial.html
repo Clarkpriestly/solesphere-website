@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SoleSphere | Testimonials</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container header-content">
+      <a href="index.html" class="logo">
+        <div class="logo-circle"></div>
+        <span>SoleSphere</span>
+      </a>
+      <div class="menu-toggle" id="mobile-menu">&#9776;</div>
+      <nav>
+        <ul id="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="testimonial.html">Testimonials</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+  <!-- Testimonials Section -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <h2>What Our Customers Say</h2>
+      <div class="testimonial-grid">
+        <div class="testimonial">
+          <p>"SoleSphere shoes have completely transformed my daily style! Exceptional quality and design."</p>
+          <span>- Gifty M.</span>
+        </div>
+        <div class="testimonial">
+          <p>"I love the global inspiration behind each pair. Walking in my SoleSphere shoes makes me feel empowered."</p>
+          <span>- Kwesi L.</span>
+        </div>
+        <div class="testimonial">
+          <p>"The perfect blend of comfort, style, and quality. I always receive compliments on my SoleSphere shoes!"</p>
+          <span>- Amponsah R.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 SoleSphere. All Rights Reserved.</p>
+      <div>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="products.html">Products</a>
+        <a href="testimonial.html">Testimonials</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- JavaScript for Mobile Menu Toggle -->
+  <script>
+    const menuToggle = document.getElementById('mobile-menu');
+    const navList = document.getElementById('nav-list');
+
+    menuToggle.addEventListener('click', () => {
+      navList.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>

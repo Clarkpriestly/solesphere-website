@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SoleSphere | Home</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container header-content">
+      <a href="index.html" class="logo">
+        <div class="logo-circle"></div>
+        <span>SoleSphere</span>
+      </a>
+      <div class="menu-toggle" id="mobile-menu">&#9776;</div>
+      <nav>
+        <ul id="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="testimonial.html">Testimonials</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <h1>Empowering Every Step</h1>
+      <p>Discover internationally crafted footwear that combines innovation with timeless design</p>
+      <a href="products.html" class="btn">Shop Now</a>
+    </div>
+  </section>
+  
+  <!-- About Preview -->
+  <section class="about" id="about">
+    <div class="container">
+      <h2>About SoleSphere</h2>
+      <p>
+        Founded in 2024 by young and passionate entrepreneurs, SoleSphere was born out of a love for fashion and a desire to connect people with quality footwear sourced from around the globe.
+      </p>
+      <a href="about.html" class="btn">Learn More</a>
+    </div>
+  </section>
+  
+  <!-- Products Preview -->
+  <section class="products" id="products">
+    <div class="container">
+      <h2>Our Collections</h2>
+      <div class="product-grid">
+        <!-- Example Product Card -->
+        <div class="product-card">
+          <img src="https://images.unsplash.com/photo-1543508282-6319a3e2621f" alt="Casual Sneakers" />
+          <div class="card-content">
+            <h3>Casual Sneakers</h3>
+            <p>Stylish and comfortable options perfect for everyday wear.</p>
+          </div>
+        </div>
+      </div>
+      <a href="products.html" class="btn">View All Products</a>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 SoleSphere. All Rights Reserved.</p>
+      <div>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="products.html">Products</a>
+        <a href="testimonial.html">Testimonials</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- JavaScript for Mobile Menu Toggle -->
+  <script>
+    const menuToggle = document.getElementById('mobile-menu');
+    const navList = document.getElementById('nav-list');
+
+    menuToggle.addEventListener('click', () => {
+      navList.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>

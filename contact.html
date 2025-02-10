@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SoleSphere | Contact</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container header-content">
+      <a href="index.html" class="logo">
+        <div class="logo-circle"></div>
+        <span>SoleSphere</span>
+      </a>
+      <div class="menu-toggle" id="mobile-menu">&#9776;</div>
+      <nav>
+        <ul id="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="testimonial.html">Testimonials</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2>Get in Touch</h2>
+      <p>
+        Have questions or need assistance? Reach out to our customer care team.
+      </p>
+      <a href="mailto:info@solesphere.com" class="btn">Contact Us</a>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 SoleSphere. All Rights Reserved.</p>
+      <div>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="products.html">Products</a>
+        <a href="testimonial.html">Testimonials</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- JavaScript for Mobile Menu Toggle -->
+  <script>
+    const menuToggle = document.getElementById('mobile-menu');
+    const navList = document.getElementById('nav-list');
+
+    menuToggle.addEventListener('click', () => {
+      navList.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>

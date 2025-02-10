@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SoleSphere | About</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container header-content">
+      <a href="index.html" class="logo">
+        <div class="logo-circle"></div>
+        <span>SoleSphere</span>
+      </a>
+      <div class="menu-toggle" id="mobile-menu">&#9776;</div>
+      <nav>
+        <ul id="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="testimonial.html">Testimonials</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="container">
+      <h2>About SoleSphere</h2>
+      <p>
+        Founded in 2024 by young and passionate entrepreneurs, SoleSphere was born out of a love for fashion and a desire to connect people with quality footwear sourced from around the globe.
+        Our mission is to empower every step by uniting innovative design, quality craftsmanship, and exceptional customer care.
+        Join us on a journey to celebrate your unique style and walk your path with confidence.
+      </p>
+      <h2>Vision</h2>
+      <p>
+        To become the leading international footwear brand that harmonizes innovative design, quality craftsmanship, and exceptional customer care. 
+        We envision a world where every individual finds the perfect pair of shoes to celebrate their journey, reflecting both personal style and a commitment to global excellence.
+      </p>
+      <h2>Mission</h2>
+      <p>
+        Empowering every step, SoleSphere is committed to uniting global design with local care. 
+        Our mission is to offer a curated collection of high-quality, internationally sourced footwear that enables our customers to express their unique style and walk their path with confidence.
+      </p>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 SoleSphere. All Rights Reserved.</p>
+      <div>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="products.html">Products</a>
+        <a href="testimonial.html">Testimonials</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- JavaScript for Mobile Menu Toggle -->
+  <script>
+    const menuToggle = document.getElementById('mobile-menu');
+    const navList = document.getElementById('nav-list');
+
+    menuToggle.addEventListener('click', () => {
+      navList.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>

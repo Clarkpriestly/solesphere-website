@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SoleSphere | Products</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container header-content">
+      <a href="index.html" class="logo">
+        <div class="logo-circle"></div>
+        <span>SoleSphere</span>
+      </a>
+      <div class="menu-toggle" id="mobile-menu">&#9776;</div>
+      <nav>
+        <ul id="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="testimonial.html">Testimonials</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+  <!-- Products Section -->
+  <section class="products" id="products">
+    <div class="container">
+      <h2>Our Collections</h2>
+      <div class="product-grid">
+        <!-- Casual Sneakers -->
+        <div class="product-card">
+          <img src="https://images.unsplash.com/photo-1543508282-6319a3e2621f" alt="Casual Sneakers" />
+          <div class="card-content">
+            <h3>Casual Sneakers</h3>
+            <p>Stylish and comfortable options perfect for everyday wear.</p>
+          </div>
+        </div>
+        <!-- Formal & Dress Shoes -->
+        <div class="product-card">
+          <img src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=800" alt="Formal &amp; Dress Shoes" />
+          <div class="card-content">
+            <h3>Formal &amp; Dress Shoes</h3>
+            <p>Elegant designs crafted for professional settings and special occasions.</p>
+          </div>
+        </div>
+        <!-- Athletic Footwear -->
+        <div class="product-card">
+          <img src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&w=800" alt="Athletic Footwear" />
+          <div class="card-content">
+            <h3>Athletic Footwear</h3>
+            <p>Engineered for active lifestyles with durability and high performance.</p>
+          </div>
+        </div>
+        <!-- Seasonal Collections -->
+        <div class="product-card">
+          <img src="https://i.pinimg.com/736x/92/af/88/92af88cb2c04ebcd35bdea2b3fb34ddf.jpg" alt="Seasonal Collections" />
+          <div class="card-content">
+            <h3>Seasonal Collections</h3>
+            <p>Exclusive releases inspired by global trends and cultural influences.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 SoleSphere. All Rights Reserved.</p>
+      <div>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="products.html">Products</a>
+        <a href="testimonial.html">Testimonials</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- JavaScript for Mobile Menu Toggle -->
+  <script>
+    const menuToggle = document.getElementById('mobile-menu');
+    const navList = document.getElementById('nav-list');
+
+    menuToggle.addEventListener('click', () => {
+      navList.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
